@@ -1,0 +1,9 @@
+<h1>Yugioh</h1>
+
+
+{% for card in cards %}
+    <div style="display: flex;">
+        <img src="{{ card.card_images[0].image_url }}" alt="">
+    </div>
+    
+{% endfor %}
